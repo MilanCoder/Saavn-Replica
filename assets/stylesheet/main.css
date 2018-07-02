@@ -1,0 +1,890 @@
+
+li{
+ list-style-type: none;
+}
+ul{
+    padding-left:0px;
+}
+.c-edges{
+    border:1px solid #30b55a;
+    border-radius:70px;
+    background-color:#30b55a;
+}
+.flexbox-container{
+    display: flex;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+audio{
+    display: none;
+}
+a:hover{
+    color:inherit;
+    text-decoration: none;
+}
+.container-fluid{
+    padding-right:0px;
+    padding-left:0px;
+}
+
+header{
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;   
+    color:black;
+    z-index: 100;
+   background:rgba(245,245,245,0.2);
+}
+
+header #first-pane{
+    border-bottom:1px solid lightgray;
+}
+header .savn-logo{
+    max-width:180px;
+    max-height:60px;
+   
+}
+
+header .savn-logo a{
+    color:black;
+     overflow:hidden;
+}
+
+header .navbar-brand{
+    display: inline-block; 
+    padding-top: 0.3rem; 
+    padding-bottom: 0rem; 
+    margin-right: 1rem; 
+}
+.nav-link{
+    padding:0rem;
+}
+header #navbarSupportedContent .bottom-b:hover{
+border-bottom: 1px solid black;
+transition:border-bottom 0.5s ease-in-out,all 0.5s ease-in-out; 
+ }
+header .savn-logo img{
+ width:100%;
+}
+
+header .nav-item{
+    margin: auto 10px auto 11px;
+}
+
+header #border-link{
+    border:0.5px solid#30b55a;
+    background-color: #30b55a;
+    border-radius: 70px;  
+} 
+
+header #border-link .go-pro
+{  padding:0rem 0.5rem 0rem 0.5rem;
+    font-size: 11px;
+    font-weight: 700;
+    color:white;
+    
+}
+
+header .dropdown-toggle::after{
+    color:rgb(153, 151, 151)
+
+}
+header .dropdown-menu{
+  font-size: inherit;
+    border-radius: 5%;
+    box-shadow:0px 0.001px 10px 1px lightgrey; 
+}
+header .dropdown-item{
+    padding:0.2rem 5rem 0.2rem 1.25rem;
+}
+header .dropdown:hover .dropdown-menu{
+display:block;
+}
+header #border-link:hover{
+    background-color: lawngreen;
+ border-color:lawngreen;
+}
+
+header .sm-icon{
+    color:lightgray;
+    font-size: 10px;
+}
+nav #inp-m {
+    width:100%;
+    
+}
+nav #inp-m .form-control{
+
+font-size:16px;
+width:75%;
+height: 3rem;
+margin:0.7rem;
+border-radius: 70px;
+
+}
+nav #inp-m button{
+   background-color:  #30b55a;
+   color:white; 
+   height: 3rem;
+    margin-left: 10px;
+    width:15%;
+    border-radius: 70px;
+}
+
+#languages_menu{
+    padding:170px 0px 10px 0px;
+    border-bottom: 1px solid#ededed;
+   
+    margin-bottom: 1px solid white;
+   
+   
+}
+#languages_menu .row .col{
+    padding-right: 0px;
+    font-size: 13px;
+    color:darkgray;
+}
+
+#languages_menu .container-fluid{
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+#languages_menu .container-fluid .row .col a:hover{
+    color:black;
+
+}
+
+#radio{
+    border-top: 1px solid #ededed;
+}
+#radio #radio_tab #savn_radio_icon{
+    width:100%;
+    
+     }
+
+#radio #radio_tab a{
+    display:block;
+    width:75px;
+    text-align: center;
+    font-size: 11px;
+    color:white;
+    
+}
+#radio #radio_tab a:hover{
+    color:darkgray;
+}
+
+#radio #radio_tab img{
+    width:90%;
+    padding-bottom:2px;
+    border:1px solid  #3e3e3e;
+    border-radius:70px;
+}
+#radio #radio_tab .row{
+  
+    padding-top:15px;
+   padding-bottom:10px;
+   background-color: #3e3e3e;
+   margin:40px 50px 40px 50px;
+   border-radius:3px;
+  
+}
+#radio #radio_tab .row .col{
+    max-width: 10%;;
+}
+
+#radio #radio_tab .choice_info p{
+margin-bottom:0px;
+font-size: 11px;
+color:darkgray;
+}
+#radio #radio_tab .choice_info h3{
+    color:white;
+}
+#radio #radio_tab .station_info{
+    padding:5px 5px 5px 5px;
+    margin:auto 20px auto auto;
+    border:1px solid darkgray;
+    border-radius:70px;
+}
+#radio #radio_tab .station_info a{
+    width:100%;
+    color:darkgray;
+    text-transform: uppercase;
+}
+#radio #radio_tab .station_info:hover a{
+    color:white;
+    border-color:white;
+   
+}
+
+#content{
+    display: flex;
+    
+}
+.main{
+    padding-right:4px;
+}
+aside{
+    width:20%;
+    
+}
+section{
+    width:60%;
+    margin:0px 10px;
+}
+#aside-1{
+    margin:0px 30px auto 70px;
+}
+.sub-heading {
+    color:darkgray;
+    font-weight: 400;
+}
+h5{
+    font-weight: inherit;
+}
+.sub-heading .main a:hover{
+    color:black;
+    border-bottom:1px solid black;
+    transition:border-bottom 0.2s ease-in-out
+}
+.green-button a{
+    font-size: 11px;
+    color:white;
+    padding:4px 12px;
+   font-weight: 700;
+
+}.green-button:hover{
+    background-color: green;
+    border-color: green;
+    transition:background-color 0.1s ease-in-out
+}
+.w-edges{
+    border: 1px solid #ccc;
+    border-radius: 70px;
+    background-color: white;
+}
+.white-button a{
+    font-size: 11px;
+    color:inherit;
+    padding:4px 12px;
+   font-weight: 700;
+}
+.white-button:hover{
+background-color:#ccc;
+color:white;
+transition:background-color 0.1s ease-in-out;
+}
+#content #song-list{
+    margin-top: 20px;
+}
+#content #song-list ol{
+    padding-left:30px;
+    list-style-type:decimal;
+}
+#content #song-list #song-info{
+    padding-left:5px;
+}
+#content #song-list ol li{
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding-left: 10px;
+    list-style-type: decimal;
+    color:darkgray;
+}#content #song-list ol li a {
+    display: block;
+}
+#content .song-name{
+    font-size: inherit;
+    font-weight: 300;
+    color:black;
+    margin-bottom:0px;
+}
+#content .movie-name{
+    margin-bottom:0px;
+    font-size: inherit;
+}
+#content #song-list .song-info{
+    padding-left:5px;
+}
+#content #song-list a{
+    position:relative
+}#content #song-list .top-song img{
+    border-radius: 3px;
+}
+#content #song-list .top-song:after{
+ display: none;
+    content:'\f144';
+    font-family:"Font Awesome 5 Free";
+   font-size:40px;
+    width:50px;
+    height:50px;
+    color:white;
+    position:absolute;
+   font-weight:normal;
+   font-style: normal;
+    z-index:2;
+    top:15%;;
+    left:10%;
+}
+#content #song-list a:hover::after{
+    display: block;
+}
+#content #song-list .top-song:before{
+  visibility: hidden;
+    content:'';
+    width:80px;
+    height:80px;
+    position:absolute;
+    z-index: 1;
+    background: black;
+    opacity:0.4;
+    
+}
+#content #song-list .top-song:hover:before{
+  visibility: visible;
+}
+#content #song-list .other-songs{
+    position:relative;
+}
+#content #song-list .other-songs:after{
+   visibility: hidden;
+    content:'\f144';
+    color:#ccc;
+    font-size: 30px;
+    font-family:"Font Awesome 5 Free";
+    top:0px;
+    left:-35px;
+    position: absolute;
+    z-index:2;
+   height:40px;
+    width: 40px;
+}
+#content #song-list .other-songs:before{
+   visibility: hidden;
+     content:'';
+     background-color: white;
+     font-size: 30px;
+     font-family:"Font Awesome 5 Free";
+     top:1px;
+     left:-35px;
+     position: absolute;
+     z-index:1;
+    height:40px;
+     width: 40px;
+ }
+#content #song-list .other-songs:hover::after{
+    visibility: visible
+}
+#content #song-list .other-songs:hover::before{
+    visibility: visible
+}
+#content aside #download-info .store-info{
+    margin-bottom:10px;
+}
+#content aside #download-info .store-info a{
+    color:white;
+    border-radius: 8px;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    max-width: 200px;
+    padding: .8em 14px .8em 48px;
+    background-color: #30b55a;
+}
+#content aside #download-info .store-info a p{
+    margin-bottom: 0px;
+}
+#content aside #download-info .store-info a .download{
+      font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .02em;
+    
+}#content aside #download-info .store-info #apple-icon-container{
+    position:relative
+}
+#content aside #download-info .store-info #apple-icon-container .download:before{
+   content:'\f179';
+   font-family:"Font Awesome 5 Brands";
+   width:40px;
+   height:40px;
+   position:absolute;
+   font-size:30px;
+   left:12px;
+   top:10px;
+  }
+  #content aside #download-info .store-info #google-icon-container{
+      position:relative;
+  }
+  #content aside #download-info .store-info #google-icon-container .download:before{
+    content:'\f3ab';
+    font-family:"Font Awesome 5 Brands";
+    width:40px;
+    height:40px;
+    position:absolute;
+    font-size:30px;
+    left:12px;
+    top:10px;
+  }
+  #content aside #download-info .store-info #windows-icon-container {
+      position:relative;
+  }
+  #content aside #download-info .store-info #windows-icon-container .download:before{
+    content:'\f17a';
+    font-family:"Font Awesome 5 Brands";
+    width:40px;
+    height:40px;
+    position:absolute;
+    font-size:30px;
+    left:12px;
+    top:10px;
+  }
+  #content #aside-2{
+      margin-right: 20px;
+  }
+  #content #aside-2 #f-playlist{
+      margin-top:20px;
+      
+  }
+  
+  #content #aside-2 #f-playlist ul li{
+    margin-bottom:5px;
+      display: block;
+  }
+  #content #aside-2 #f-playlist ul .rows ul{
+      justify-content: space-between;
+  }
+  #content #aside-2 #f-playlist ul .rows ul .column{
+     
+    width:50%;
+      margin:0px 13px 0px 0px;
+      padding:0px 8px 0px 0px;
+      border-radius:3px;
+  }
+  #content #aside-2 #f-playlist ul .rows ul li a{
+      display: block;
+      width:100%;
+  }
+  .style-border:before{
+      border:1px solid #ccc;
+      border-radius: 3px;
+      display: block;
+      transform:rotate(5deg);
+      content:'';
+      width:92%;
+      height:63%;
+      position:absolute;
+      z-index: -1;
+
+  }
+  .style-border:after{
+      content:'';
+      display:block;
+      border-radius:3px;
+      border:1px solid #ccc;
+      transform:rotate(-5deg);
+      width:92%;
+      height:63%;
+      position:absolute;
+      z-index: -1;
+      top:0px;
+      left:0px;
+  }
+  #content #aside-2 #f-playlist ul .rows .singer{
+    font-size: 13px;   
+    margin-top:5px;
+   
+  }
+  #content #aside-2 #f-playlist ul .rows .singer-image{
+      border:1px solid #ccc;
+      border-radius:3px;
+  }
+    #content #aside-2 #f-playlist ul .rows .singer-image img{
+      width:100%;
+      
+  }
+  #content #aside-2 #f-playlist ul .rows ul .column .number{
+      color:#ccc;
+      font-size:11px;
+  }
+  #content #aside-2 #f-playlist ul .rows ul .column a:hover .singer-name{
+      border-bottom:1px solid black;
+      display: inline;
+  }
+
+  #content section{
+      margin-bottom:30px;
+  }
+
+  #content section #new-releases{
+      margin-top:20px;
+  }
+  #content section #new-releases .rows{
+      margin-bottom:30px;
+  }
+  #content section #new-releases .rows .column{
+      width:25%;
+      margin:0px 20px 0px 0px;
+  }
+  #content section #new-releases .rows .column .song-image{
+      border:1px solid #ccc;
+      border-radius:3px;
+  }#content section #new-releases .rows .column .song-image img{
+      width:100%;
+  }
+  #content section #new-releases .rows .column .song-info .song-name{
+      font-size: 14px;
+      display:inline;
+      overflow: hidden;
+  } #content section #new-releases .rows .column .song-info .singer-name{
+    font-size: 13px;
+  }
+  #content section #new-releases .rows .column a:hover .song-name{
+   
+    border-bottom:1px solid black;
+  }
+  footer #like-here{
+      padding:25px 0px;
+      margin:0px 30px;
+      border-top:1px solid #ccc;
+      border-bottom:1px solid #ccc;
+  }
+  .like{
+
+    font-family: Helvetica, Arial, sans-serif;
+    padding:4px;
+    font-size:13px;
+    font-weight:bold;
+    color:white !important;
+    background-color:#4267b2;
+    border-radius:3px; 
+    margin:0px 4px;
+ }
+.like:hover{
+    background-color:darkblue;
+}
+    footer .showoff{
+        font-size:13px;
+        color:darkgrey;
+        
+    }
+    .about-us{
+        margin:30px;
+        color:darkgray;
+        font-size:12px;
+    }
+    .about-us .rows{
+        margin-right:50px;
+        width:15%;
+    }
+    .about-us .heading{
+        font-size:13px;  
+    margin-bottom:20px;
+ }
+ 
+ .about-us .info a:hover{
+
+    color:black;
+border-bottom:1px solid black;
+ 
+}
+
+ .about-us #info4{
+     border-bottom:1px solid darkgray;
+     padding-bottom: 10px; 
+ }
+ .about-us #info1{
+     padding-top:10px;
+ }
+ .about-us #end{
+     align-content: flex-end;
+     text-align: right;
+ }
+ .right-end{
+    margin:2px;
+}
+#music-player {
+    display: none;
+    background: linear-gradient(to top,#3e3e3e 0,rgba(62,62,62,.62) 100%);
+    position:fixed;
+    z-index:3;
+    bottom:0px;
+}
+#music-player .buttons{
+    color:white;
+    font-size: 26px;
+    padding:15px;
+
+}
+
+#music-player #button-menu{
+    margin-left:200px;
+}
+
+.slidecontainer {
+    width: 80%; 
+    position:relative;
+}
+
+
+.slider {
+    -webkit-appearance: none;  
+   cursor: pointer;
+    width: 100%; 
+    height: 2px;
+    border-radius: 5px;   
+    background: #d3d3d3; 
+    outline: none; 
+    opacity: 0.7; 
+        -webkit-transition: .2s; 
+            transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+   color:white;
+    background-color: white;
+    cursor: pointer;;
+    opacity:1;
+}
+#myRange::-webkit-slider-thumb{
+    display: none;
+}
+#myRange:hover::-webkit-slider-thumb{
+    display: block;
+}
+.slider:hover {
+    opacity: 1; 
+}
+#song-info .start-radio a{
+   box-sizing: border-box;
+   width:20px;
+}
+
+#song_name_place{
+    font-weight: 400;
+    font-size: 13px;
+ color:white;
+}
+#song_name_place:hover{
+border-bottom:1px solid white;
+transition:all .12s ease-out;
+}
+#songImage{
+width:100%;
+
+}
+
+#mp-image-container{
+    cursor: pointer;
+    height: 60px;
+    margin-top: 15px;
+    opacity: 1;
+    width: 60px;
+    
+}
+
+#song-info{
+    width:65%;
+    margin-left:1em;
+    margin-top:1em;
+}
+
+.start-radio{
+    float:right;
+    color:white;
+ 
+}
+.start-radio a{
+    box-shadow: rgba(0,0,0,.12) 0 1px 0 1px;
+    padding: 3px 9px;
+    text-align: center;
+   font-size: 11px;
+   font-weight: 700;
+}
+.start-radio a:hover{
+    background-color: rgb(23, 189, 23);
+}
+#movie-name-place{
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(255,255,255,.48);
+    margin-left: .25em;
+
+}
+#movie-name-place:hover{
+border-bottom:1px solid rgba(255,255,255,.48);
+transition:all .12s ease-out;
+}
+#More-option {
+    margin-left: 0.5em;
+}
+
+#button-menu .buttons{
+    margin:25px 10px 0px 7px;
+    cursor: pointer;
+}
+#button-menu #previous{
+    background: url('/Projects/assets/spritesheet/sprite-saavn.png') -110px -181px;
+	width: 21px;
+    height: 22px;
+
+}
+#button-menu #resume{
+    background: url('/Projects/assets/spritesheet/sprite-saavn.png') no-repeat -15px -177px;
+	width: 24px;
+    height: 30px;
+    margin-bottom:5px;
+    
+    
+}
+#button-menu #next{
+    background: url('/Projects/assets/spritesheet/sprite-saavn.png') no-repeat -157px -181px;
+	width: 21px;
+    height: 22px;
+    margin-right:20px;
+   
+}
+#More-option a{
+    border-radius:75px;
+    padding:1px 7px 3px 7px ;
+    box-shadow: inset rgba(255,255,255,.26) 0 0 0 1px;
+    
+    overflow: hidden;
+    color: rgba(255,255,255,.26);
+   }
+
+   .timer-properties{
+       font-size: 11px;
+         font-weight: 400;
+         color: rgba(255,255,255,.37);
+         padding:8px 5px 5px 5px;
+   }
+   .musicplayer-buttons{
+    color: #f6f6f6;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    margin:0px 5px 0px 5px;
+   }
+
+ 
+   .music-button-section #setting-option{
+        background: url('/Projects/assets/spritesheet/sprite-saavn.png') no-repeat  -114px -290px;
+        width: 14px;
+        height: 14px;
+        margin:10px 5px 0px 24px;
+  
+   }
+   .music-button-section #setting-option .dropdown-toggle::after{
+     border-bottom: 0px;
+     border-left:0px;
+     border-right:0px;
+   }
+   .music-button-section #setting-option .dropdown-toggle .dropdown-menu{
+   transform:none !important;
+    left:-75px !important;
+       top:-162px !important;
+       font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+       font-size: 14px;
+       font-weight: 400;
+   }
+   .music-button-section #setting-option:hover .dropdown-menu{
+    display:block;
+
+}
+   .music-button-section #setting-option .dropdown-toggle .dropdown-menu li{
+    
+    padding: 5px 10px;
+        
+   }
+   .music-button-section #setting-option .dropdown-toggle .dropdown-menu li:hover{
+    background-color:whitesmoke;
+   }
+   .music-button-section #setting-option .dropdown-toggle .dropdown-menu li a{
+    margin-left: .5em;
+    color:lightgray;
+    font-size: 11px;
+    line-height: 12px;
+   }
+
+   .music-button-section #restart{
+    box-sizing:border-box; 
+    background:url('/Projects/assets/spritesheet/sprite-saavn.png') no-repeat -4px -269px;
+	width: 14px;
+    height: 10px;
+    padding:5px;
+    margin:10px 5px 0px 5px ;
+   }
+   .music-button-section #random-song-button{
+    cursor: pointer;
+    background: url('/Projects/assets/spritesheet/sprite-saavn.png')  no-repeat -47px -269px;
+	width: 15px;
+    height: 12px;
+    padding-right:5px;
+    box-sizing: border-box;
+   margin:10px auto 0px 5px;
+    
+   }
+   .music-button-section #volume{
+    background: url('/Projects/assets/spritesheet/sprite-saavn.png') no-repeat -69px -290px;
+	width: 16px;
+	height: 14px;
+    margin:10px 5px 0px 10px;
+    position: relative;
+}
+.music-button-section .guttor{
+    padding:0px 11px 7px 11px;
+    position:absolute;
+    z-index:2;
+    transform:rotate(-90deg);
+    bottom:72px;
+    left:-61px;
+    background-color: white;
+    border-radius: 7px;
+    display:none;
+    box-shadow: rgba(0,0,0,.05) 0 2px 12px 5px, rgba(0,0,0,.1) 0 0 0 1px;
+}
+.music-button-section #volume:hover .guttor{
+    display:block;
+}
+.music-button-section #setVolume{
+    width:110px;
+    
+}
+
+.music-button-section .guttor .slider::-webkit-slider-thumb{
+    border:1px solid black;
+    background-color:black;
+    
+}
+#music-progress-bar{
+    background-color:white;
+   
+    height:2px;
+    position: absolute;;
+    z-index:1;
+    left:0px;
+    top:16px;
+}
+#volume-progress-bar{
+    background-color:black;
+     height:2px;
+    position: absolute;
+   
+    width:30px;
+    z-index:2;
+    left:0px;
+    top:12px;
+    margin:0px 0px 0px 11px;
+}
